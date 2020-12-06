@@ -1,0 +1,1 @@
+# LogMagic-Exercise
