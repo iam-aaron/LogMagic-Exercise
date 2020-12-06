@@ -1,0 +1,31 @@
+{
+  "name": "logmagic-exercise",
+  "description": "LogMagic Exercise",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "@types/node": "^14.6.0",
+    "jest": "^26.4.0",
+    "ts-jest": "^26.2.0",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "testCases": "jest --testPathPattern=src/__tests__/testCases",
+    "unitTests": "jest --testPathPattern=src/__tests__/unitTests --coverage",
+    "helloWorld": "jest helloWorld.test.ts"
+  },
+  "transform": {
+    "\\.js$": "<rootDir>/node_modules/babel-jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iam-aaron/LogMagic-Exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iam-aaron/LogMagic-Exercise/issues"
+  },
+  "homepage": "https://github.com/iam-aaron/LogMagic-Exercise#readme"
+}
